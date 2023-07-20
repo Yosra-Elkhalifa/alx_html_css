@@ -1,0 +1,381 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    
+}
+header div
+{
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo
+{
+    margin-left: 40px;
+}
+
+#nav-links a
+{
+    width: 100px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    font-family: Source Sans Pro;
+}
+
+main
+{
+    height: 1100px;
+    background-image: url(../css_advanced/images/Object.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#main-header
+{
+    font-size: 70px;
+    color: white;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: 200px;
+}
+
+.main-sub-text
+{
+    display: flex;
+    color: white;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: large;
+    font-weight: 600;
+    font-family: Source Sans Pro;
+}
+
+.register-button
+{
+    padding: 10px;
+    width: 250px;
+    background-color: #C271FF;
+    color: white;
+    border-radius: 50px;
+    font-size: larger;
+    margin: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+#pros-heading
+{
+    text-align: center;
+    color: white;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 25px;
+    
+    padding-top: 50px;
+
+}
+
+#pros-container
+{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 0;    
+}
+
+#rounded-img
+{
+    border-radius: 50%;
+}
+
+#quote-section
+{
+    background-color: #C271FF;
+    margin-top: -80px;
+    
+}
+
+#quote-section-div
+{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    color: white;
+    font-size: x-large;
+    
+}
+
+#quote-div
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#quote-div cite
+{
+    
+    margin-top: 20px;
+    
+}
+
+#quote-div p
+{
+    
+    margin-top: -1px;
+    
+}
+
+#videos-section
+{
+    padding: 50px;   
+}
+
+#videos-section div h1
+{
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 50px;
+}
+
+#tutorials-container
+{
+    display: flex;
+    /*padding: 5px;*/
+    gap: 50px;
+    padding-left: 80px;
+}
+
+.play-icon
+{
+    position: absolute;
+    top: 1630px;
+    transform: translate(-60%, -60%);
+    padding-right: 200px;
+}
+
+.tutorials-content h2
+{
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+}
+
+.tutorials-content p
+{
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sub-tutorials
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.sub-tutorials h6
+{
+color: #C271FF;
+font-family: Source Sans Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+
+}
+.sub-sub-tutorials
+{
+    display: flex;
+    margin-top:  -10px;
+    
+}
+
+.sub-sub-tutorials p
+{
+    padding-left: 50px;
+    margin-top: -4px;
+    color: #C271FF;
+    text-align: right;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+#membershib-section
+{
+    /*width: 1440px;*/
+    height: 500px;
+    background-color: #071629;
+    padding: 40px;
+}
+
+#membershib-section h1
+{
+    text-align: center;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#membership-container
+{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.membership-content img
+{
+    padding-left: 60px;
+}
+
+.membership-content h2
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.membership-content p
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+#member-button
+{
+    padding-left: 500px;
+}
+
+#faq-section
+{
+    padding-bottom: 50px;
+}
+
+#faq-section h1
+{
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.faq-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    
+}
+
+.faq-container h3
+{
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.faq-container p
+{
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer
+{
+    background-color: #071629;
+    height: 200px;
+    padding: 20px;
+}
+
+#footer-section
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 50px;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+footer p
+{
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3516787588596344;
+    text-align: center;
+    margin-top: 40px;
+}
